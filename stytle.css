@@ -1,0 +1,29 @@
+#container{
+    background: rgb(243, 173, 185);
+    text-align: center;
+    position: fixed;
+    font-family: arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#btn-nao, #btn-sim{
+    background: black; 
+    color: white;
+    padding: 10px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn-nao{
+    transition: transform 0.5s ease;
+}
+#menasagem{
+    display:none;
+    font-family: arial, sans-serif;
+}
