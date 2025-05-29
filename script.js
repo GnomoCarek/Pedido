@@ -39,7 +39,7 @@ function desvia(){
         mensagem.style.display = "block";
     } else {
         let mensagem = document.getElementById("mensagem");
-        mensagem.innerHTML = "<h3>O Esse pedido é inevitavel 😎🍕!</h3>";
+        mensagem.innerHTML = "<h3>O Esse pedido é inevitavel 🍕!</h3>";
         mensagem.style.display = "block";
     }
 }
