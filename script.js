@@ -10,7 +10,8 @@ let mensagens = [
     "<h3>Você sabe que está destinado a clicar no 'Sim'. Por que negar o inevitável? 🍕</h3>",
     "<h3>O botão 'Sim' tá tão bonitinho... Dê uma chance pra ele. 🥰</h3>",
     "<h3>Eu já cliquei no 'Sim' mentalmente por você... Só falta você clicar! 😌</h3>",
-    "<h3>Chega de brincadeiras! Clica no 'Sim' e seja feliz! 😵‍💫</h3>"
+    "<h3>Chega de brincadeiras! Clica no 'Sim' e seja feliz! 😵‍💫</h3>",
+    "<h3>Chega de brincadeiras! Clica no 'Sim' e seja mais feliz! ❤️</h3>"
 ];
 
 function sim(){
