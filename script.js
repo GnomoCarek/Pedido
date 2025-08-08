@@ -15,12 +15,7 @@ let mensagens = [
 ];
 
 function sim(){
-    let btn = document.getElementById("container");
-    let mensagem = document.getElementById("mensagem");
-    mensagem.innerHTML = "<h3>Parabéns pela conquista 😍🍕🎉🎉</h3>";
-    mensagem.style.display = "block";
-    btn.style.background = "hotpink";
-
+    window.location.href = "landing_page.html";
 }
 function trocaPosicao(min, max){
     return(Math.random() * (min - max) + min) + "%";
@@ -30,7 +25,7 @@ function desvia(){
     btn.style.position = "absolute";
     btn.style.top = trocaPosicao(50, 80);
     btn.style.left = trocaPosicao(50, 80);
-    btn.style.transform = `rotate(${Math.random() * 360}deg)`;
+    btn.style.transform = `rotate(${Math.random() * 180}deg)`;
 
     tentativas++;
 
